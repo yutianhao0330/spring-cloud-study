@@ -1,0 +1,9 @@
+server:
+  port: 8887
+#可以刷新
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: "*"

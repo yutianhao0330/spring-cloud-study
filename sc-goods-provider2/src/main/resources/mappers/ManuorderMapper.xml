@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yutianhao.scgoodsprovider2.mapper.ManuorderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.yutianhao.sc.scgoodscommon.entity.Manuorder">
+        <id column="id" property="id" />
+        <result column="idNo" property="idNo" />
+        <result column="createdate" property="createdate" />
+        <result column="emp_num" property="empNum" />
+        <result column="person_name" property="personName" />
+        <result column="manu_idNo" property="manuIdno" />
+        <result column="manu_name" property="manuName" />
+        <result column="manu_person_name" property="manuPersonName" />
+        <result column="manu_phone1" property="manuPhone1" />
+        <result column="manu_phone2" property="manuPhone2" />
+        <result column="pic" property="pic" />
+        <result column="gid" property="gid" />
+        <result column="remarks" property="remarks" />
+        <result column="num" property="num" />
+        <result column="totalprice" property="totalprice" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, idNo, createdate, emp_num, person_name, manu_idNo, manu_name, manu_person_name, manu_phone1, manu_phone2, pic, gid, remarks, num, totalprice
+    </sql>
+
+</mapper>
